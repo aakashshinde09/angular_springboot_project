@@ -58,7 +58,7 @@
      ```sh
      select * from tbl_workers;
      ```
-    ![Database Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/1.jpg)
+       ![Database Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/1.jpg)
 
 ## Backend Setup
 
