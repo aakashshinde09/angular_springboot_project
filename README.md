@@ -197,9 +197,9 @@
    - To add a worker, click "Add Worker" and fill in the data.
     ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/22.jpg)
 
-    ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/23.jpg)
+       ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/23.jpg)
 
-    ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/24.jpg)
+       ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/24.jpg)
 
 ## Notes
 
