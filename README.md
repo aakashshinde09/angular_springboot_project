@@ -71,6 +71,7 @@
      ```sh
      docker ps
      ```
+     ![Backend Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/2.jpg)
 
 2. **Deploy Backend Manually**
    - Enter the container:
@@ -84,7 +85,7 @@
      ```
    - Clone the repository:
      ```sh
-     git clone https://github.com/sharadrathod/Project-Angular-App.git
+     git clone https://github.com/aakashshinde09/angular_springboot_project.git
      ```
    - Navigate to the backend directory:
      ```sh
@@ -104,10 +105,14 @@
      ```
      - Replace `localhost` with your DB instance endpoint.
      - Add your username, password, and the port your Docker container is running on.
+      ![Deploy Backend Manually](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/6.jpg)
    - Build the project:
      ```sh
      mvn clean package -Dmaven.test.skip=true
      ```
+      ![Deploy Backend Manually](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/8.jpg)
+   
+
 
 ## Frontend Setup
 
@@ -120,6 +125,7 @@
      ```sh
      docker ps
      ```
+     ![Frontend Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/11.jpg)
 
 2. **Deploy Frontend Manually**
    - Enter the container:
@@ -147,17 +153,25 @@
      ```sh
      npm install -g @angular/cli
      ```
+   - Check Angular CLI installation:
+     ```sh
+     ng version
+     ```
+     ![Frontend Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/13.jpg)
    - Configure `worker.service.ts`:
      ```sh
      vim src/app/services/worker.service.ts
      ```
      - Replace `localhost` with your instance's public IP address.
      - Replace port `8080` with the port your backend Docker container is exposed on (e.g., `8085`).
+
+      ![Frontend Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/14.jpg)
    - Build the project:
      ```sh
      npm install
      ng build
      ```
+     ![Frontend Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/18.jpg)
 
 ## Starting the Servers
 
@@ -167,6 +181,7 @@
      ```sh
      java -jar target/spring-backend-v1.jar
      ```
+     ![Starting the Servers](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/20.jpg)
 
 2. **Start Frontend Server**
    - Go back to the frontend container.
@@ -174,11 +189,17 @@
      ```sh
      ng serve --host 0.0.0.0 --port=30080
      ```
+     ![Start Frontend Server](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/21.jpg)
 
 3. **Access the Application**
    - Copy the public IP of the instance and paste it into the browser with port `30080/workers`.
    - You should see the page with the data.
    - To add a worker, click "Add Worker" and fill in the data.
+    ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/22.jpg)
+
+    ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/23.jpg)
+
+    ![Access the Application](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/24.jpg)
 
 ## Notes
 
