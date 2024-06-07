@@ -28,7 +28,7 @@
      ```
    - Clone the repository to get the schema file:
      ```sh
-     git clone https://github.com/sharadrathod/Project-Angular-App.git
+     git clone https://github.com/aakashshinde09/angular_springboot_project.git
      ```
    - Copy the schema file outside the project:
      ```sh
@@ -38,6 +38,27 @@
      ```sh
      mysql -h <endpoint> -u <user> -p<password> springbackend < springbackend.sql
      ```
+   - Login to the database again:
+     ```sh
+     mysql -h <endpoint> -u <user> -p<password>
+     ```
+   - View all the databases created:
+     ```sh
+     SHOW DATABASES;
+     ```
+   - Use the database:
+     ```sh
+     use springbackend;
+     ```
+   - View the tables created:
+     ```sh
+     SHOW tables;
+     ```
+   - View the content of the table:
+     ```sh
+     select * from tbl_workers;
+     ```
+    ![Database Setup](https://github.com/aakashshinde09/assets/blob/2e7cf8a833c8c0296cdf590bc3f1ff9c3a31246c/angular_project_assets/1.jpg)
 
 ## Backend Setup
 
